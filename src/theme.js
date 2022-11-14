@@ -1,10 +1,10 @@
 export const theme = {
   colors: {
-    primaryTextColor: "#757575",
+    primaryTextColor: '#757575',
     bg: '#060d17',
     titleTextColor: '#212121',
     accentColor: '#2196f3',
-     primaryWhiteColor: "#ffffff",
+    primaryWhiteColor: '#ffffff',
     //  button-bgc-color: #f5f4fa,
     //  header-bgc-color: #2f303a,
     //  team-bgc-color: #f5f4fa,
@@ -23,6 +23,7 @@ export const theme = {
     time: '250ms',
     //  work-overlay-bgc-color: rgba(47, 48, 58, 0.8),
     //  modal-title-color: #212121,
+    mobileMenuColor: '#212121',
     //  modal-icon-input-color: #212121,
     //  modal-text-color: #757575,
     //  modal-comment-placeholder: rgba(117, 117, 117, 0.5),
