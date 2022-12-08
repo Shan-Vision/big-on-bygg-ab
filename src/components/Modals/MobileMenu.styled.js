@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   /* transform: scale(0.5);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
@@ -23,4 +23,12 @@ export const Container = styled.div`
   @media screen and(min-width:768px) {
     display: none;
   }
+`;
+
+export const Box = styled.div`
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  background-color: green;
+  border-radius: 10px;
 `;

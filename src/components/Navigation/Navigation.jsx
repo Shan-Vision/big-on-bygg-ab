@@ -6,7 +6,7 @@ export const Navigation = () => {
       <Nav>
         <NavItems to="/">Home</NavItems>
         <NavItems to="/portfolio">Portfolio</NavItems>
-        <NavItems to="/contacts">Contacts</NavItems>
+        <NavItems to="/contacts">Contact us</NavItems>
       </Nav>
     </>
   );

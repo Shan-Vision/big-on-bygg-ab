@@ -5,7 +5,7 @@ import ContactLinks from 'components/ContactLinks';
 import Container from 'components/Container';
 import ContainerFlex from 'components/ContainerFlex';
 import BurgerButton from 'components/BurgerButton';
-import  MobileMenu  from 'components/Modal/MobileMenu';
+import  MobileMenu  from 'components/Modals/MobileMenu';
 import { useState } from 'react';
 
 export const AppBar = () => {

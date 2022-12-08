@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { Container } from './MobileMenu.styled';
+import { Container, Box } from './MobileMenu.styled';
 
 const mobMenuRoot = document.querySelector('#mobile-menu-root');
 
@@ -23,7 +23,8 @@ const MobileMenu = ({ onClose }) => {
   return createPortal(
     <Container onClick={onBackDropClick}>
       <div onClick={onClose}>
-        <button type="button">Close</button>
+        {/* <button type="button">Close</button> */}
+        <Box></Box>
       </div>
     </Container>,
     mobMenuRoot
